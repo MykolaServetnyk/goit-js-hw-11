@@ -23,3 +23,90 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.form {
+  display: flex;
+}
+
+#search-form {
+  margin: 36px auto;
+  display: flex;
+  align-items: center;
+  height: 40px;
+
+}
+
+.searchInput {
+  padding: 10px;
+  border-radius: 4px;
+  width: 272px;
+  border: #808080 solid;
+
+}
+
+.searchInput:hover {
+  border: #000000 solid;
+}
+
+.search-button {
+  margin-left: 8px;
+  background-color: #4E75FF;
+  color: #fff;
+  padding: 10px 16px 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #6C8CFF;
+}
+
+
+.image-gallery {
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+}
+
+.gallery-item {
+  display: flex;
+  width: 360px;
+  max-width: 100%;
+  /* Збереже ширину, але не дозволить перевищувати 100% */
+  height: auto;
+  border: solid #808080;
+}
+
+.link {
+  display: block;
+}
+
+.gallery-image {
+
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+}
+
+.desc {
+  display: flex;
+  justify-content: center;
+  margin: 4px auto;
+  gap: 10px;
+  align-items: center;
+  padding-left: 10px;
+
+}
+
+p {
+  justify-content: center;
+  align-items: center;
+
+}
