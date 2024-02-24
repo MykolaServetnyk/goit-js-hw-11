@@ -30,7 +30,7 @@ const fetchImages = (userInput) => {
             return data.hits;
         })
         .catch(error => {
-            console.error('Error fetching data:');
+            console.log('Error fetching data:');
         });
 };
 

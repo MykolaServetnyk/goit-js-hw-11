@@ -38,7 +38,7 @@ searchForm.addEventListener('submit', function (event) {
         })
         .catch(error => {
             loader.remove();
-            // console.log('error');
+            console.log('error');
         });
 });
 

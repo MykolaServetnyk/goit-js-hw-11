@@ -33,7 +33,7 @@ const renderPhotoList = (images, galleryEl) => {
 
         lightbox.refresh();
     } else {
-        console.warn('No images found. Please try a different search query.');
+        console.log('No images found. Please try a different search query.');
     }
 }
 
