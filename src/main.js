@@ -12,7 +12,6 @@ import './css/loader.css'
 import fetchImages from './js/pixabay-api';
 import renderPhotoList from './js/render-functions';
 
-const sectionEl = document.querySelector('.section')
 const searchForm = document.getElementById('search-form');
 const inputField = document.querySelector('.searchInput');
 const galleryEl = document.querySelector('.image-gallery');
@@ -29,7 +28,6 @@ searchForm.addEventListener('submit', function (event) {
     const loader = document.createElement('span');
     loader.classList.add('loader');
     document.querySelector('.form').append(loader);
-    console.log(document.querySelector('.form'));
 
     if (!userInput) {
         console.log('Please enter a search query before submitting.');
