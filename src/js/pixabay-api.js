@@ -24,7 +24,7 @@ const fetchImages = (userInput) => {
                     backgroundColor: '#EF4040',
                     iconColor: '#FAFAFB',
                     position: "topRight",
-                    iconUrl: "https://fonts.google.com/icons?selected=Material%20Icons%3Adangerous%3A"
+                    theme: 'dark',
                 });
             }
             return data.hits;
