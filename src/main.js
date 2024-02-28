@@ -27,7 +27,7 @@ searchForm.addEventListener('submit', function (event) {
 
     const loader = document.createElement('span');
     loader.classList.add('loader');
-    document.querySelector('.form').append(loader);
+    document.querySelector('.form').after(loader);
 
     if (!userInput) {
         console.log('Please enter a search query before submitting.');

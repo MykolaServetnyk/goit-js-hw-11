@@ -26,6 +26,7 @@
 
 .form {
   display: flex;
+  flex-wrap: wrap;
 }
 
 #search-form {
@@ -77,19 +78,24 @@
 .gallery-item {
   display: flex;
   width: 360px;
-
+  justify-content: center;
+  align-items: center;
   border: solid #808080;
 }
 
 .link {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .gallery-image {
 
   display: block;
   max-width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+
 
 }
 
